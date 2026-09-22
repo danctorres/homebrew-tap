@@ -9,21 +9,21 @@ class Tuiman < Formula
   on_macos do
     on_arm do
       url "#{base}-aarch64-apple-darwin-v0.1.1.tar.gz"
-      sha256 "b14c348434e77a7f19ee1563549fd65ee3adde95f8fd4d20d04e1ab8047bd310"
+      sha256 "eb87cbf5500bc4462243c019b9fbc9a33804f0c0146c705cdb1513eabe4969a0"
     end
     on_intel do
       url "#{base}-x86_64-apple-darwin-v0.1.1.tar.gz"
-      sha256 "5c12576967d97288bb481745cd005c114dd0eb9126ab7af2e0e1ccefa9b3411d"
+      sha256 "9bee565d82dea53fc84d93f23dd6e4778933011ead3ebe22e7269f2c422e300f"
     end
   end
   on_linux do
     on_arm do
       url "#{base}-aarch64-unknown-linux-musl-v0.1.1.tar.gz"
-      sha256 "fbc40fc7972417238aa6e20fc07e07a591b5a40b25f6e7dd0d810036243c9fd9"
+      sha256 "9dbf96a7881e809434269c74598b5ef6a6e1beef2aa8e5b0777764dde46d38a6"
     end
     on_intel do
       url "#{base}-x86_64-unknown-linux-musl-v0.1.1.tar.gz"
-      sha256 "c32de943d606c1e4870a6dc466bd1101546574748b35f6ec6f4e1a01e7ce7164"
+      sha256 "fa480b134471ff876f8273b44ace6c9761d28e32a9ef81be07467479bdaf8f10"
     end
   end
 
