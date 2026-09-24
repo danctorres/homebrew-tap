@@ -1,29 +1,29 @@
-# Homebrew formula template. The release workflow fills in 0.3.1 and the
+# Homebrew formula template. The release workflow fills in 0.4.0 and the
 # @SHA256_<target>@ placeholders and pushes it to danctorres/homebrew-tap.
 class Tuiman < Formula
   desc "Fast TUI to discover, install and manage TUIs"
   homepage "https://github.com/danctorres/tuiman"
   license "MIT"
 
-  base = "https://github.com/danctorres/tuiman/releases/download/v0.3.1/tuiman"
+  base = "https://github.com/danctorres/tuiman/releases/download/v0.4.0/tuiman"
   on_macos do
     on_arm do
-      url "#{base}-aarch64-apple-darwin-v0.3.1.tar.gz"
-      sha256 "7ec0c7833fbbaf522c8eb2e4bf71950daa3ffa9328e1f3a014c85fdf3cdf0825"
+      url "#{base}-aarch64-apple-darwin-v0.4.0.tar.gz"
+      sha256 "8835cadee96b48bdc813d8db2c241495417f4bda08f99ab827c46b18aa4a5dd8"
     end
     on_intel do
-      url "#{base}-x86_64-apple-darwin-v0.3.1.tar.gz"
-      sha256 "40341b63f30caf762b76312ded60bb994305db7be5877b9c3bb4efd3d44c6732"
+      url "#{base}-x86_64-apple-darwin-v0.4.0.tar.gz"
+      sha256 "84a1517d86d464625e381acc675f0c539539a6d10a492582fbb607cc238de2d0"
     end
   end
   on_linux do
     on_arm do
-      url "#{base}-aarch64-unknown-linux-musl-v0.3.1.tar.gz"
-      sha256 "8e0cb97a6a30e187afb92a28c7769adedf3c32fb815e1860cefcbcb3973d2928"
+      url "#{base}-aarch64-unknown-linux-musl-v0.4.0.tar.gz"
+      sha256 "b0ac342972e660da0b321ab4bbeb82d21fee1dfd5e8295a763cae5ffb6b8f240"
     end
     on_intel do
-      url "#{base}-x86_64-unknown-linux-musl-v0.3.1.tar.gz"
-      sha256 "ead2d08427c3a158e5b22fb7832334bd9b947586a12050ec9b068d7a10e1698d"
+      url "#{base}-x86_64-unknown-linux-musl-v0.4.0.tar.gz"
+      sha256 "b372f178dde55e14d326db193463068ab1ae2484df22fc777980aaec8efbecae"
     end
   end
 
