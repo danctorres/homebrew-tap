@@ -1,7 +1,7 @@
-# Homebrew formula template. The release workflow fills in 0.1.0 and the
-# @SHA256_<target>@ placeholders and pushes it to danctorres/homebrew-tap.
+# Homebrew formula template. The release workflow fills in the version and the
+# checksum placeholders and pushes it to danctorres/homebrew-tap.
 class Modelcmp < Formula
-  desc "Compare models, get recommendations or choose one per task"
+  desc "Compare models, pick favorites, get recommendations"
   homepage "https://github.com/danctorres/modelcmp"
   license "MIT"
 
@@ -9,21 +9,21 @@ class Modelcmp < Formula
   on_macos do
     on_arm do
       url "#{base}-aarch64-apple-darwin-v0.1.0.tar.gz"
-      sha256 "b74e515de86dd0d46f5d230981bf381103831b739babb85d28ca4b11cfe0ffef"
+      sha256 "563e359c8d2d9c3afcad5a8caaf0e2ec3237fc889589b9752c89aab80fabae26"
     end
     on_intel do
       url "#{base}-x86_64-apple-darwin-v0.1.0.tar.gz"
-      sha256 "1e4c8472be6d891b69a7dc3a5eb45546d2b77ed29ab7301083003e8b63328b4f"
+      sha256 "2b505161301c2496e319b0b966f7f5fbcc27e3b1e572516e269173ad9abcc00c"
     end
   end
   on_linux do
     on_arm do
       url "#{base}-aarch64-unknown-linux-musl-v0.1.0.tar.gz"
-      sha256 "2d74974cbeb6430ba694d7b7d2e2533c30007f1d4b04414996ab01f71889e389"
+      sha256 "fcddd9bbe376def36f078cdec7227bbd6a0f932a17aa8668d12f693fd1668a18"
     end
     on_intel do
       url "#{base}-x86_64-unknown-linux-musl-v0.1.0.tar.gz"
-      sha256 "b0a54c4676a026d38583bdbb75e7b29e690fe42f98527a91dfcc4a7292b5c1dc"
+      sha256 "5001acee0ff408a033c62b31d66e517e429532b8beff52e7d7f8df213f86a15c"
     end
   end
 
