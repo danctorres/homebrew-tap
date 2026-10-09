@@ -7,21 +7,21 @@ class Modelcmp < Formula
   on_macos do
     on_arm do
       url "#{base}-aarch64-apple-darwin-v0.1.0.tar.gz"
-      sha256 "43ff01e417c5821370eedeaf6d4ab21464f38a19eafa8458584ec9666a160d29"
+      sha256 "1ddf290b56db5665e74c3831efcb7c5ce5216e996c47fd2cfe7e580c4b9274b5"
     end
     on_intel do
       url "#{base}-x86_64-apple-darwin-v0.1.0.tar.gz"
-      sha256 "7e463ac1653eb55a4861ea7447d8e6f22a7abde7deffbfc3f88e2fe5bef1b9e6"
+      sha256 "2eec213c1ed4c31f9285c6c7beea47110feca21f67bdac6d178d20c08e5285e4"
     end
   end
   on_linux do
     on_arm do
       url "#{base}-aarch64-unknown-linux-musl-v0.1.0.tar.gz"
-      sha256 "a101ed6b05ea8d383ddcd94d3b1e9b265c2101164320f42db072cb842ce9f73d"
+      sha256 "0ff678c6a699176e6484f7cf1cc12b8d1d6890f16fec49ae20385d558dd26f74"
     end
     on_intel do
       url "#{base}-x86_64-unknown-linux-musl-v0.1.0.tar.gz"
-      sha256 "c5551bf3d20b841a5f708f21df1adf54842e66d6bcbd77c9bf2f3dc3c391f75c"
+      sha256 "7934f1dd9b7fe8fc64fd651ecdef7a70f66acdd78952888255471e119b92b04e"
     end
   end
 
