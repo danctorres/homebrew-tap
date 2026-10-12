@@ -3,25 +3,25 @@ class Modelcmp < Formula
   homepage "https://github.com/danctorres/modelcmp"
   license "MIT"
 
-  base = "https://github.com/danctorres/modelcmp/releases/download/v0.1.0/modelcmp"
+  base = "https://github.com/danctorres/modelcmp/releases/download/v0.1.1/modelcmp"
   on_macos do
     on_arm do
-      url "#{base}-aarch64-apple-darwin-v0.1.0.tar.gz"
-      sha256 "a596e5e78f5d9bbdf1a209fe64b180d5905f6bda03798b84ecd85eff67cf5118"
+      url "#{base}-aarch64-apple-darwin-v0.1.1.tar.gz"
+      sha256 "9a22be4d09c43c7ec11a4cca0397b44ffe1b9de6b8228cc4a4963df28c2b42d4"
     end
     on_intel do
-      url "#{base}-x86_64-apple-darwin-v0.1.0.tar.gz"
-      sha256 "b935f697ef37815c174a3051548e571b710e597fe8b4515c7839efbaf7bcb0e5"
+      url "#{base}-x86_64-apple-darwin-v0.1.1.tar.gz"
+      sha256 "cdcdaae7200574a7fae8de3f086e9c020b98608d47c47021384bb4d564a67335"
     end
   end
   on_linux do
     on_arm do
-      url "#{base}-aarch64-unknown-linux-musl-v0.1.0.tar.gz"
-      sha256 "7574582cb05ef72e87d2058f78e76f4c5918223cbff90c45af24d19488d8d14c"
+      url "#{base}-aarch64-unknown-linux-musl-v0.1.1.tar.gz"
+      sha256 "1bcac469718aba2a0b7e404074eecb6e86ff6aedc934bb3aa491a7ace6411d30"
     end
     on_intel do
-      url "#{base}-x86_64-unknown-linux-musl-v0.1.0.tar.gz"
-      sha256 "65ad814150cbc520d2b84b326631510dd10682d999f7a1fabf3ae18260a7d00a"
+      url "#{base}-x86_64-unknown-linux-musl-v0.1.1.tar.gz"
+      sha256 "38158cf33b986e35a5a4b8e199a0be87ed036913b2fa94ddf8ef4aa6d2f86a9b"
     end
   end
 
