@@ -1,5 +1,5 @@
 class Modelcmp < Formula
-  desc "Compare models, pick favorites, get recommendations"
+  desc "Pick the LLM for each agent, by benchmarks and price"
   homepage "https://github.com/danctorres/modelcmp"
   license "MIT"
 
